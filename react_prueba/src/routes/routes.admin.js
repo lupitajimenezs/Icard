@@ -1,13 +1,14 @@
 // Gestionara rutas del administrador
 
 import {AdminLayout} from '../layout';
-import {LoginAdmin} from '../pages/Admin';
+import {HomeAdmin } from '../pages/Admin';
 
 const routesAdmin = [
     {
-        path: '/Admin',
+        path: '/admin',
         layout: AdminLayout,
-        component: LoginAdmin,
+        component: HomeAdmin,
+        exact: true
     },
 ];
 
